@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.transaction-p2p'
 version = '0.0.1-SNAPSHOT'
-description = 'Transaction projetct p2p'
+description = 'Transaction project p2p'
 
 java {
 	toolchain {
@@ -33,6 +33,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	testImplementation "org.mockito:mockito-inline:5.13.0"
 }
 
 tasks.named('test') {
