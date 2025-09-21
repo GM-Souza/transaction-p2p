@@ -20,6 +20,7 @@ public class User {
         this.lastName = data.lastName();
         this.balance = data.balance();
         this.userType = data.userType();
+        this.document = data.document();
         this.password = data.password();
         this.email = data.email();
     }
